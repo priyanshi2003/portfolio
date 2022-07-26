@@ -1,0 +1,355 @@
+*{
+  padding:0;margin:0;box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background: url('Minions2-removebg-preview.png'),url('bg2.jpg');
+  background-size: 50% 100%, cover;
+  /* background-size: cover; */
+  background-position: right, center;
+  background-repeat: no-repeat,no-repeat;
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.logo{
+  color: white;
+  font-size: 50px;
+  padding-left:100px;
+  letter-spacing: 5px;
+}
+.menu a{
+  color: white;
+  text-decoration:none;
+  padding: 10px 20px;
+  margin:5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu{
+  margin-right:100px;
+}
+nav{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo span{
+  color:#F2DF3A;
+}
+.menu a:hover{
+  background:#F2DF3A;
+  transition: 0.4;
+}
+.text{
+  color:white;
+  margin-top: 100px;
+  margin-left:50px;
+  max-width: 100%;
+}
+.text h1{
+  font-size: 50px;
+  margin: 10px 0;
+}
+.text p{
+  font-size: 25px;
+}
+button{
+  border: 2px solid transparent;
+  /* outine: none; */
+  color:black;
+  background:#E8AA42 ;
+  padding: 10px;
+  margin-top:20px;
+  border-radius: 30px;
+  transition:.4s;
+  text-decoration: none;
+}
+button:hover{
+  background-color:white;
+  /* color:white; */
+  border: 2px solid black;
+  cursor:pointer;
+/* #E8AA42 */
+}
+#about{
+  padding: 100px 50px;
+}
+.section-info{
+  font-weight:bold;
+  text-align:center;
+  font-size: 30px;
+}
+.section-info p{
+  font-size:25px;
+  color:#E8AA42;
+}
+.about-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-left-col{
+  flex-basis: 50%;
+}
+.about-left-col img{
+  width: 100%;
+  padding: 50px;
+}
+.about-right-col{
+  flex-basis:50%;
+}
+#p-title{
+  font-size: 20px;
+  font-weight:bold;
+}
+.about-right-col p{
+  font-size: 20px;
+  text-align:justify;
+}
+#skills{
+  padding: 100px 50px;
+  background: url("bgabout.jpg");
+  background-size: cover;
+  color:white;
+}
+.skills-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  background:rgb(45,52,54);
+  padding: 50px;
+}
+.skills-left-col{
+  flex-basis:50%;
+  text-align:justify;
+}
+.skills-left-col p{
+  font-size:20px;
+}
+.skills-right-col{
+  flex-basis:50%;
+}
+progress{
+  width: 80%;
+
+}
+.progress{
+  width:70%;
+  margin:auto:
+
+}
+.progress-div p{
+  margin-bottom:10px;
+  font-size: 20px;
+  padding-left:80px;
+  text-align: justify;
+
+
+}
+#portfolio{
+ padding: 100px 50px;
+ display: flex;
+flex-direction: column;
+background-color: white;
+}
+#portfolio h1{
+margin: 60px;
+font-size:30px;
+font-weight:bold;
+text-align: center;
+color: #E8AA42;
+}
+.gallery{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.gallery img{
+width: 350px;
+height: 300px;
+padding: 10px;
+margin: 10px;
+}
+.gallery img:hover{
+background-color:#E8AA42 ;
+cursor: pointer;
+}
+#contact{
+  padding: 100px 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact-info{
+  color: black;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contact-form{
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+  flex: 1;
+}
+
+.contact-form h2{
+  color: #E8AA42;
+  font-size: 35px;
+  text-transform: uppercase;
+  /* margin-left: 50px; */
+  text-align:justify;
+  /* padding-bottom:20px; */
+  margin-bottom: 40px;
+
+}
+
+.contact-form .text-box{
+  background: #000;
+  color: #fff;
+  border: none;
+  width: calc(50% - 10px);
+  /* width: 50%; */
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contact-form textarea{
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: #E8AA42 ;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+  background: grey ;
+}
+
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  .contact-form h2{
+    font-size: 30px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: url("wallpaperflare.com_wallpaper-removebg-preview.png"), url("bg2.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  /* background-image: url("./images/wallpaperflare.com_wallpaper-removebg-preview.png"); */
+  background-position: right, center;
+  background-size: 50% 100%, cover;
+  background-repeat: no-repeat, no-repeat;
+  clip-path: polygon(50% 0%, 100% 38%, 100% 99%, 0 100%, 0% 38%);
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-top:30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left:50px;
+}
+footer p:nth-child(2){
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+  margin-left:50px;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:  #E8AA42;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left:50px;
+}
+.social a:hover{
+  transform: scale(1.3);
+  transition: .3s;
+}
+.end{
+  position: absolute;
+  color:#E8AA42;
+  bottom: 35px;
+  font-size: 14px;
+  margin-left: 50px;
+}
